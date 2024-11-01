@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.namaanda.sunik
+productName: Sunik
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: ./src/app/favicon.ico
+files: []
+electronVersion: 33.0.2
