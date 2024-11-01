@@ -53,3 +53,9 @@ package-lock.json
 
 # main.js
 main.js
+
+# out
+out
+
+# dist
+dist

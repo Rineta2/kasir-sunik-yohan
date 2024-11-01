@@ -9,5 +9,9 @@ win:
       arch:
         - x64
   icon: ./src/app/favicon.ico
+asar: true
+asarUnpack: '**\*.{node,dll}'
+npmRebuild: false
+buildDependenciesFromSource: true
 files: []
 electronVersion: 33.0.2

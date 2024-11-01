@@ -2,7 +2,7 @@
   "name": "sunik-yohan",
   "version": "0.1.0",
   "private": true,
-  "description": "Deskripsi aplikasi Anda",
+  "description": "Kasir Sunik Yohan",
   "author": "Yohan",
   "main": "main.js",
   "scripts": {
@@ -55,6 +55,10 @@
     },
     "directories": {
       "output": "dist"
-    }
+    },
+    "asar": true,
+    "asarUnpack": "**\\*.{node,dll}",
+    "npmRebuild": false,
+    "buildDependenciesFromSource": true
   }
 }
