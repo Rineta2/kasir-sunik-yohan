@@ -2,11 +2,15 @@
   "name": "sunik-yohan",
   "version": "0.1.0",
   "private": true,
+  "description": "Deskripsi aplikasi Anda",
+  "author": "Yohan",
+  "main": "main.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "electron": "electron ."
   },
   "dependencies": {
     "@firebase/firestore": "latest",
@@ -26,5 +30,12 @@
     "react-toastify": "^10.0.6",
     "sass": "latest",
     "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/fs-extra": "^11.0.4",
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8",
+    "electron-is-dev": "^2.0.0"
   }
 }

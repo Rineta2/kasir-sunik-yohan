@@ -50,3 +50,6 @@ electron/preload.js
 
 # package.json
 package-lock.json
+
+# main.js
+main.js
